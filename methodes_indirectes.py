@@ -195,7 +195,7 @@ def verif_liste(guildName):
 	"""Permet de vérifier si le serveur à une base de données de joueurs
 	Si la base n'existe pas, une nouvelle est crée"""
 
-	chemin_joueurs = chemin_courant + f'/private_info/liste_joueurs_{guildName}.json'
+	chemin_joueurs = chemin_courant + f'/listes_info/liste_joueurs_{guildName}.json'
 
 	if not os.path.exists(chemin_joueurs) :
 		with open(chemin_joueurs, 'w') as f :

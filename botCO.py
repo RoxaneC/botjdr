@@ -216,7 +216,7 @@ async def aide(ctx):
 ###
 
 
-with open(chemin_courant + "/private_info/Token.txt", 'r') as f :
+with open(chemin_courant + "/listes_info/Token.txt", 'r') as f :
 	token = f.read()
 
 bot.run(token)
