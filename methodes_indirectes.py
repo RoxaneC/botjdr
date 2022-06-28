@@ -5,6 +5,7 @@ import random
 # Récupère le chemin courant
 chemin_courant = os.getcwd()
 
+
 ### FONCTIONS UTILISÉES UNIQUEMENT DANS LE MODULE ACTIONS_DIRECTES.PY ###
 
 def lire_args(commande):

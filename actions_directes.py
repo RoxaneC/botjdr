@@ -7,6 +7,7 @@ import methodes_indirectes
 # Récupère le chemin courant
 chemin_courant = os.getcwd()
 
+
 ### FONCTIONS INTÉRAGISSANTS DIRECTEMENT AVEC LE BOT ###
 
 def action(commande, guildName):

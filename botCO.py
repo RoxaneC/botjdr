@@ -10,6 +10,7 @@ chemin_courant = os.getcwd()
 # Définit le caractère préfixe des commandes
 bot = commands.Bot(command_prefix="!")
 
+
 @bot.event
 async def on_ready():
 	"""Fonction permettant de vérifier que le bot s'est bien lancé sur tous ses serveurs"""
@@ -17,7 +18,6 @@ async def on_ready():
 	print("Le bot est prêt")
 	for guild in bot.guilds:
 		print(f'Le bot {bot.user} s\'est connecté sur les serveurs {guild.name}!')
-
 
 ## FONCTIONS DES COMMANDES ##
 
