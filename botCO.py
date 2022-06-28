@@ -213,16 +213,10 @@ async def aide(ctx):
 	await ctx.channel.send(embed = embed)
 
 
+###
 
 
 with open(chemin_courant + "/private_info/Token.txt", 'r') as f :
 	token = f.read()
 
 bot.run(token)
-
-
-
-
-
-
-### 752 lignes
