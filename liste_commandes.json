@@ -1,0 +1,75 @@
+{
+    "!ajouter {Nom}": ["Permet d'ajouter un joueur à la liste des joueurs sous le nom indiqué, vous pourrez alors indiquer les valeurs des statistiques du joueur dans les différentes statistiques de jeu.",
+        "exemple : !ajouter Roxane",
+        ""
+    ],
+    "!jet j{Joueur} d{Taille de dé} s{Stat} diff{Difficulté} m{Modificateur}": [
+        "Permet de jeter un dé pour une action en fonction des différents paramètres; l'ordre n'a pas d'importance; le nom du joueur et de la stat concernée sont obligatoire.",
+        "exemple : !jet jRoxane d12 sCharisme diff8 m-1",
+        "",
+        "j: le joueur qui lance le dé",
+        "d: la taille du dé (facultatif, par défaut 20)",
+        "s: la statistique concernée",
+        "diff: la difficulté du lancer (facultatif, par defaut 10)",
+        "m: le modificateur hors stat (facultatif, par défaut 0)",
+        ""
+    ],
+    "!combat t{Type de combat} j{Joueur attaquant} vs{Joueur défendant} d{Taille du dé d'attaque} m{Modificateur au dé de visée}": [
+        "Permet de jeter un dé pour une action de combat en fonction des différents paramètres; l'ordre n'a pas d'importance.",
+        "exemple : !combat tDistance jRoxane vsDimitri d8 m2",
+        "",
+        "t: le type de l'attaque",
+        "j: le joueur attaquant",
+        "vs: le joueur défenseur",
+        "d: la taille du dé des dommages (facultatif, par défaut 20)",
+        "m: le modificateur du dé de visée (facultatif, par défaut 0)",
+        ""
+    ],
+    "!modifstat s{Stat} j{Joueur} v{Valeur} (MJ uniquement)": [
+        "Permet de modifier la valeur d'une statistique d'un joueur (notamment pour rectifier des erreurs); l'ordre n'a pas d'importance; tous les arguments sont obligatoire.",
+        "exemple : !modifstat sForce jRoxane v9",
+        "",
+        "s: la statistique à modifier",
+        "j: le joueur concerné",
+        "v: la nouvelle valeur (par défaut 0)",
+        ""
+    ],
+    "!heal j{Joueur} v{valeur du soin} d{valeur de la potion}": [
+        "Permet de soigner les joueurs ou le joueur désigné pour leur/lui rendre des points de vie; l'ordre n'a pas d'importance.",
+        "exemple : !heal jRoxane v5 d6",
+        "",
+        "j: le joueur concerné (facultatif, soigne tous les joueurs)",
+        "v: la valeur de PV à soigner (facultatif, par défaut 1 si utilisé seul, par défaut 0 si utilisé avec potion)",
+        "d: valeur de la potion lancée (facultatif)",
+        ""
+    ],
+    "!modifmod s{Stat} j{Joueur} v{Valeur} (MJ uniquement)": [
+        "Permet de modifier la valeur du modificateur d'une statistique d'un joueur (notamment pour rectifier des erreurs, ou ajouter des modificateurs permanants); l'ordre n'a pas d'importance; tous les arguments sont obligatoire.",
+        "exemple : !modifmod sConstitution jRoxane v-3",
+        "",
+        "s: la statistique du modificateur à modifier",
+        "j: le joueur concerné",
+        "v: la nouvelle valeur (par défaut 0)",
+        ""
+    ],
+    "!lvlup {Joueur} (MJ uniquement)": [
+        "Effectue une montée de niveau sur le joueur concerné; tous les arguments sont obligatoire.",
+        "exemple : !lvlup Roxane",
+        ""
+    ],
+    "!afficher j{Joueur} s{Stat} pnj (MJ uniquement)": [
+        "Affiche les joueurs et leurs statistiques; l'ordre n'a pas d'importance.",
+        "exemple : !afficher jRoxane sSagesse pnj",
+        "",
+        "j: uniquement les statistiques du joueur indiqué (facultatif)",
+        "s: uniquement la statistique indiquée (facultatif)",
+        "pnj: autorise l'affichage des pnj (facultatif)",
+        ""
+    ],
+    "!supprimer {Joueur} (MJ uniquement)": [
+        "Permet de supprimer le joueur de la liste des joueurs.",
+        "exemple : !supprimer Roxane",
+        ""
+    ]
+    
+}
