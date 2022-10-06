@@ -5,5 +5,5 @@
 - jets d'action de base
 - jets de combats
 - jets de soins
-- enregistrement/modification de fiche joueur
+- gestion de fiches joueur
 - montée de niveau
