@@ -395,3 +395,4 @@ def get_joueurs(commande, guildName):
 				s.append(aux2)
 
 	return j,s
+
